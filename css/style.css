@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Noto+Serif+JP&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+body {
+    max-width: 990px;
+    margin: 0 auto;
+    float: none;
+}
+.background {
+    background-image: url(../img/background.png);
+    max-height: 3733px;
+    min-height: 3733px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    text-align: center;
+    padding-top: 57px;
+}
+
+.menu {
+    size: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 53px; margin-right: 53px; margin-top: 20px;
+}
+.menu .hitsumabushi img {
+    max-height: 220px;
+    margin-top: 19px;
+}
+.menu .kare img {
+    max-height: 257px ;
+}
+.menu .ramen img {
+    max-height: 257px ;
+}
