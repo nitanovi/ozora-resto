@@ -21,6 +21,7 @@ body {
 .title {
     text-align: center;
     padding-top: 57px;
+    pointer-events: none;
 }
 
 .menu {
@@ -28,6 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left: 53px; margin-right: 53px; margin-top: 20px;
+    pointer-events: none;
 }
 .menu .hitsumabushi img {
     max-height: 220px;
@@ -38,4 +40,19 @@ body {
 }
 .menu .ramen img {
     max-height: 257px ;
+}
+.menu-bar {
+    background-image: url(../img/menu-bar.png);
+    box-shadow: 10px;
+    max-height: 110px; min-height: 110px;
+    margin-top: 83px;
+    text-align: center;
+    padding-top: 28px;
+}
+.menu-button {
+    margin-top: 24px;
+    margin-left: 29px;
+    margin-right: 29px;
+    display: flex;
+    justify-content: space-between;
 }
