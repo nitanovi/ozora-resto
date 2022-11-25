@@ -6,11 +6,7 @@
     box-sizing: border-box
 }
 
-body {
-    max-width: 990px;
-    width: 100%;
-    margin: 0 auto;
-    float: none;
+body-bg {
 }
 
 h1 {
@@ -24,56 +20,41 @@ p {
     font-weight: 600;
 }
 
-.background {
-    background-image: url(../img/background.png);
+#whole {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
     max-height: 3733px;
     min-height: 3733px;
-    background-repeat: no-repeat;
-    background-position: center;
     box-shadow: 0px 20px 5px 5px rgba(85, 64, 36, 0.726);
 }
-
-.title {
-    text-align: center;
-    padding-top: 57px;
-    pointer-events: none;
+#bg-top img{
+    max-width: 990px;
+    width: 100%;
 }
-
-.menu {
-    size: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 53px;
-    margin-right: 53px;
-    margin-top: 20px;
-    pointer-events: none;
-}
-
-.menu .hitsumabushi img {
-    max-height: 220px;
-    margin-top: 27px;
-}
-
-.menu .kare img {
-    max-height: 257px;
-}
-
-.menu .ramen img {
-    max-height: 257px;
-
-}
-
 .menu-bar {
     background-image: url(../img/menu-bar.png);
-    box-shadow: 10px;
+    size: cover;
+    width: 100%;
     max-height: 110px;
-    min-height: 110px;
-    margin-top: 83px;
+    margin-top: -10px;
     text-align: center;
-    padding-top: 28px;
+    padding: 28px 0px 28px 0px;
     box-shadow: 0px 5px 5px rgba(136, 86, 20, 0.438);
+    position: relative;
+    z-index: 3;
 }
-
+.menu-bar img {
+    margin: 0 auto;
+    width: 80%;
+}
+#bg-bot {
+    background-image: url(../img/bg-bot.png);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -16px;
+    z-index: 1;
+}
 .menu-button {
     margin-top: 15px;
     margin-left: 29px;
@@ -89,11 +70,14 @@ p {
     height: 100%;
     background-repeat: no-repeat;
     margin-top: 2px;
+    display: block;
 }
 
 #text-1 img {
     text-align: center;
     padding: 116px 85px 115px 85px;
+    width: 100%;
+    display: block;
 }
 
 #text-2 {
@@ -101,85 +85,57 @@ p {
     width: 100%;
     background-repeat: no-repeat;
     margin-top: 2px;
+    display: block;
 }
 
 #text-2 img {
     text-align: center;
     padding-left: 85px;
     padding: 117px 75px 115px 75px;
+    width: 100%;
+    display: block;
 }
 
 #text-3 {
     background-image: url(../img/button-3.png);
-    width: 100%;
     background-repeat: no-repeat;
+    width: 100%;
+    display: block;
 }
 
 #text-3 img {
     text-align: center;
     padding-left: 85px;
     padding: 150px 48px 120px 55px;
+    width: 100%;
+    display: block;
 }
 
-.menu-1 {
-    background-image: url(../img/menu-bg.png);
-    background-repeat: no-repeat;
-    margin-left: 130px;
-    margin-top: 70px;
+.menu-1 img {
+    max-width: 990px;
+    width: 100%;
+    display: block;
 }
 
-.judul-1 {
-    text-align: center;
-    padding: 48px 130px 400px 0px;
+.menu-2 img {
+    max-width: 990px;
+    width: 100%;
+    display: block;
 }
 
-.foto-1 {
-    position: absolute;
-    top: 1368px;
-    left: 207px;
+
+.menu-3 img{
+    max-width: 990px;
+    width: 100%;
+    display: block;
 }
 
-.menu-2 {
-    background-image: url(../img/menu-bg.png);
-    background-repeat: no-repeat;
-    margin-left: 130px;
-    margin-top: 62px;
-}
 
-.judul-2 {
-    text-align: center;
-    padding: 48px 130px 400px 0px;
-}
-
-.foto-2 {
-    position: absolute;
-    top: 1929px;
-    left: 318px;
-}
-
-.menu-3 {
-    background-image: url(../img/menu-bg.png);
-    background-repeat: no-repeat;
-    margin-left: 130px;
-    margin-top: 62px;
-}
-
-.judul-3 {
-    text-align: center;
-    padding: 50px 130px 400px 0px;
-}
-
-.foto-3 {
-    position: absolute;
-    top: 2429px;
-    left: 318px;
-}
-
-#coupon {
-    max-width: 944px;
-    size: 100%;
-    text-align: center;
+#coupon img {
+    max-width: 990px;
+    width: 90%;
     margin: 0 auto;
+    display: block;
 }
 
 #access {
