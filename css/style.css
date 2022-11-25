@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap');
 
 * {
     margin: 0px;
@@ -8,8 +8,20 @@
 
 body {
     max-width: 990px;
+    width: 100%;
     margin: 0 auto;
     float: none;
+}
+
+h1 {
+    font-size: 48.21px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+}
+p {
+    font-size: 29.17px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 600;
 }
 
 .background {
@@ -48,6 +60,7 @@ body {
 
 .menu .ramen img {
     max-height: 257px;
+
 }
 
 .menu-bar {
@@ -62,11 +75,12 @@ body {
 }
 
 .menu-button {
-    margin-top: 24px;
+    margin-top: 15px;
     margin-left: 29px;
     margin-right: 29px;
     display: flex;
     justify-content: space-between;
+    z-index: 5;
 }
 
 #text-1 {
@@ -92,7 +106,7 @@ body {
 #text-2 img {
     text-align: center;
     padding-left: 85px;
-    padding: 117px 85px 115px 75px;
+    padding: 117px 75px 115px 75px;
 }
 
 #text-3 {
@@ -104,25 +118,27 @@ body {
 #text-3 img {
     text-align: center;
     padding-left: 85px;
-    padding: 150px 85px 120px 55px;
+    padding: 150px 48px 120px 55px;
 }
 
 .menu-1 {
     background-image: url(../img/menu-bg.png);
     background-repeat: no-repeat;
     margin-left: 130px;
-    margin-top: 62px;
+    margin-top: 70px;
 }
 
 .judul-1 {
     text-align: center;
     padding: 48px 130px 400px 0px;
 }
+
 .foto-1 {
     position: absolute;
-    top: 1367px;
-    left: 337px;
+    top: 1368px;
+    left: 207px;
 }
+
 .menu-2 {
     background-image: url(../img/menu-bg.png);
     background-repeat: no-repeat;
@@ -134,11 +150,13 @@ body {
     text-align: center;
     padding: 48px 130px 400px 0px;
 }
+
 .foto-2 {
     position: absolute;
     top: 1929px;
     left: 318px;
 }
+
 .menu-3 {
     background-image: url(../img/menu-bg.png);
     background-repeat: no-repeat;
@@ -148,16 +166,38 @@ body {
 
 .judul-3 {
     text-align: center;
-    padding: 48px 130px 400px 0px;
+    padding: 50px 130px 400px 0px;
 }
+
 .foto-3 {
     position: absolute;
-    top: 1929px;
+    top: 2429px;
     left: 318px;
 }
 
+#coupon {
+    max-width: 944px;
+    size: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
 
-
-
-
-
+#access {
+    background-image: url(../img/akses-bg.png);
+    margin: 0 auto;
+    max-width: 944px;
+    max-height: 185px;
+}
+#access h1 {
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;  
+}
+#access p {
+    color: #fff;
+}
+.divider {
+    position: absolute;
+    margin-left: 243px;
+    margin-right: 245px;
+    margin-top: -25px;
+}
