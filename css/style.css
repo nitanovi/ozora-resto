@@ -10,11 +10,13 @@ h1 {
     font-size: 48.21px;
     font-family: 'Noto Serif JP', serif;
     font-weight: 900;
+    color: #352a27;
 }
 p {
-    font-size: 29.17px;
+    font-size: 24px;
     font-family: 'Noto Serif JP', serif;
     font-weight: 600;
+    color: #352a27;
 }
 
 #whole {
@@ -121,11 +123,11 @@ p {
     align-items: center;
 }
 
-.menu-1 img {
+/* .menu-1 img {
     max-width: 990px;
     width: 100%;
     display: block;
-}
+} 
 
 .menu-2 img {
     max-width: 990px;
@@ -138,19 +140,54 @@ p {
     max-width: 990px;
     width: 100%;
     display: block;
+}*/
+
+.judul-1 {
+    background-image: url(../img/menu-bg-1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 570px;
+    margin-left: -8px;
+    background-size: contain;
 }
-
-
+.text{
+    padding-top: 158px;
+}
+.text p{
+    margin: 0px 54px 0px 370px;
+    top: 50px;
+}
+.text .p1{
+    font-weight: 900;
+}
+.judul-2 {
+    background-image: url(../img/menu-bg-2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 590px;
+    margin-left: 0px;
+    background-size: contain;
+}
+.judul-3 {
+    background-image: url(../img/menu-bg-3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    margin-left: -7px;
+    background-size: contain;
+    overflow: hidden;
+}
 #coupon img {
     max-width: 990px;
     width: 90%;
     margin: 0 auto;
-    display: block;
+    display: block; 
 }
 
 #access {
     background-image: url(../img/akses-bg.png);
-    margin: 0 auto;
+    margin-top: 58px;
+    background-position: center;
     max-width: 944px;
     max-height: 185px;
 }
@@ -162,10 +199,7 @@ p {
     color: #fff;
 }
 .divider {
-    position: absolute;
-    margin-left: 243px;
-    margin-right: 245px;
-    margin-top: -25px;
+    text-align: center;
 }
 
 /* Saljuuu */
