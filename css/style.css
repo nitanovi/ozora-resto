@@ -182,14 +182,15 @@ p {
     width: 90%;
     margin: 0 auto;
     display: block; 
+    padding-bottom: 40px;
 }
 
 #access {
     background-image: url(../img/akses-bg.png);
-    margin-top: 58px;
-    background-position: center;
-    max-width: 944px;
-    max-height: 185px;
+    max-width: 990px;
+    width: 90%;
+    margin: 0 auto;
+    display: block; 
 }
 #access h1 {
     -webkit-text-stroke: 2px white;
@@ -199,7 +200,13 @@ p {
     color: #fff;
 }
 .divider {
+    max-width: 990px;
+    width: 90%;
+    margin: 0 auto;
+    display: block; 
     text-align: center;
+    position: absolute;
+    padding-top: -100px;
 }
 
 /* Saljuuu */
