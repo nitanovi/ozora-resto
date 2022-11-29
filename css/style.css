@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;900&display=swap');
-
+html { scroll-behavior: smooth; }
 * {
     margin: 0px;
     padding: 0px;
@@ -68,7 +68,7 @@ p {
     width: 100%;
     height: 370px;
     background-repeat: no-repeat;
-    margin-top: 15px;
+    margin-top: 2px;
     background-size: contain;
     background-position: center;
 }
@@ -87,7 +87,7 @@ p {
 #text-2 {
     background-image: url(../img/button-2.png);
     background-repeat: no-repeat;
-    margin-top: 21px;
+    margin-top: 8px;
     width: 100%;
     background-size: contain;
     background-position: center;
@@ -107,7 +107,7 @@ p {
     background-image: url(../img/button-3.png);
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: 9px;
+    margin-top: 1px;
     background-size: contain;
     background-position: center;
 }
@@ -149,6 +149,7 @@ p {
     height: 570px;
     margin-left: -8px;
     background-size: contain;
+    margin-top: 72px;
 }
 .text{
     padding-top: 158px;
@@ -167,6 +168,7 @@ p {
     height: 590px;
     margin-left: 0px;
     background-size: contain;
+    margin-top: 31px;
 }
 .judul-3 {
     background-image: url(../img/menu-bg-3.png);
@@ -191,6 +193,8 @@ p {
     width: 90%;
     margin: 0 auto;
     display: block; 
+    padding: 3px 26px 20px 19px;
+    border-radius: 5px;
 }
 #access h1 {
     -webkit-text-stroke: 2px white;
@@ -199,16 +203,69 @@ p {
 #access p {
     color: #fff;
 }
+.divider img {
+    max-width: 990px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
 .divider {
     max-width: 990px;
-    width: 90%;
-    margin: 0 auto;
-    display: block; 
-    text-align: center;
-    position: absolute;
-    padding-top: -100px;
+    width: 100%;
+    margin-top: -27px;
+    margin-bottom: -81px;
+    display: block;
+    position: relative;
+    z-index: -1;
 }
-
+.divider-2 {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    margin-top: -85px;
+    margin-bottom: -39px;
+    z-index: -1;
+}
+.divider-2 img {
+    max-width: 990px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.divider-3 {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    margin-top: -92px;
+    margin-bottom: -8px;
+    z-index: -1;
+}
+.divider-3 img {
+    max-width: 990px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.divider-4 {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    margin-top: -105px;
+    margin-bottom: 26px;
+    z-index: -1;
+}
+.divider-4 img {
+    max-width: 990px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
 /* Saljuuu */
 .content-wrapper {
     position: relative;
@@ -286,4 +343,8 @@ p {
     100% {
       transform: translate3D(7.5%, 100%, 0);
     }
+  }
+
+  script {
+    z-index: 105;
   }
