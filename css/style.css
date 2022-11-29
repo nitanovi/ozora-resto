@@ -71,6 +71,7 @@ p {
     margin-top: 2px;
     background-size: contain;
     background-position: center;
+    transition: background-color 1s;
 }
 
 #text-1 img {
@@ -91,6 +92,7 @@ p {
     width: 100%;
     background-size: contain;
     background-position: center;
+    transition: background-color 1s;
 }
 
 #text-2 img {
@@ -110,6 +112,7 @@ p {
     margin-top: 1px;
     background-size: contain;
     background-position: center;
+    transition: background-color 1s;
 }
 
 #text-3 img {
@@ -121,8 +124,11 @@ p {
     justify-content: center;
     height: 361px;
     align-items: center;
-}
+} 
 
+#text-1:hover, #text-2:hover, #text-3:hover,#text-1:focus, #text-2:focus, #text-3:focus {
+    background-image: #e91e63;
+}
 /* .menu-1 img {
     max-width: 990px;
     width: 100%;
